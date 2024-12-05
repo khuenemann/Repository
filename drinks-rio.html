@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./drinks.css">
+	<script async defer src="https://apis.google.com/js/api.js"></script>
+	<script type="text/javascript" src="./drinks.js"></script>
+</head>
+
+<body id="buddy" onload= "getdrinks();">
+<p>
+	<div class="box">Enter ingredients:</div>
+
+<form class="infoForm">
+ingredient: <br>
+	<select id="ingr1" name="ingredient">
+	<Option value="" ></option>
+  </select><br><br>
+
+ingredient: <br>
+	<select id="ingr2" name="ingredient">
+	<Option value="" ></option>
+  </select><br><br>
+
+ingredient: <br>
+	<select id="ingr3" name="ingredient">
+	<Option value="" ></option>
+  </select><br><br>
+
+ingredient: <br>
+	<select id="ingr4" name="ingredient">
+	<Option value="" ></option>
+  </select><br><br>
+
+ingredient: <br>
+	<select id="ingr5" name="ingredient">
+	<Option value="" ></option>
+  </select><br><br>
+	<input type="button" value="Submit" onclick="setValues()">
+</form>
+
+</p>
+
+
+<p class="area" id="window"></p>
+</body>
+</html>

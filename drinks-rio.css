@@ -1,0 +1,132 @@
+.login{
+	border:3px solid black;
+	padding: 10px;
+	text-align: center;
+}
+.registerpage{
+	position: absolute;
+	top: 95%;
+	right: 3%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.tabs{
+	background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 10%;
+    transition: 0.3s;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabbed{
+	display: none;
+	background-color: white;
+}
+
+.button1{
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	right: 0;
+	display: block;
+	float: left;
+	width: 50%;
+	height: 10%;
+	border: 3px solid lightgrey;
+	border-radius: 6px;
+	box-shadow: inset 0 0 0 5px lightgrey;
+	font-size: 100%;
+
+}
+.button2{
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	right: 0;
+	display: block;
+	float: left;
+	width: 50%;
+	height: 10%;
+	border: 3px solid lightgrey;
+	border-radius: 6px;
+	box-shadow: inset 0 0 0 5px lightgrey;
+	font-size: 100%;
+}
+.button3{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	float: left;
+	width: 50%;
+	height: 10%;
+	border: 3px solid lightgrey;
+	border-radius: 6px;
+	box-shadow: inset 0 0 0 5px lightgrey;	
+	font-size: 100%;
+}
+.button4{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	right: 0;
+	display: block;
+	float: left;
+	width: 50%;
+	height: 10%;
+	border: 3px solid lightgrey;
+	border-radius: 6px;
+	box-shadow: inset 0 0 0 5px lightgrey;	
+	font-size: 100%;
+
+}
+
+.box{
+	background-color: white;
+	border:2px solid black;
+	padding: 5px;
+}
+
+select{
+	width:100%;
+}
+option{
+	width: 100%;
+}
+input{
+	width:100%;
+}
+
+.infoForm{
+	position: relative;
+	top: 5px;
+}
+
+h1{
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+}
+.area{
+	width: 100%;
+	height: 40%;
+	bottom: 0%;
+	right: 0%;
+	left: 0%;
+	font-size: 75%;
+	font-family: serif;
+	position: absolute;
+	border: 1px solid black;
+	overflow-y: scroll;
+	overflow-x: auto;
+	background-color: white;
+	padding: 1%

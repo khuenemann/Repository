@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="drinks.css">
+	<script async defer src="https://apis.google.com/js/api.js"></script>
+	<script type="text/javascript" src="./drinks.js"></script>
+	    <title>Cocktails</title>
+</head>
+
+<body id="buddy" onload= "getdrinks();">
+
+	<header role="banner">
+    <div class="spread" >
+			<nav>
+        <a href="drinks.html" target="_blank">Database</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="recipes.html" target="_blank">Recipes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="references.html" target="_blank">References</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </nav>
+    </div>
+		<div>
+			<img class="center-img" src="banner_deep_cove.jpg" id="banner" width="100%" height="250">
+		</div>
+
+		<h1>Cocktail Database</h1>
+		<p>Enter the ingredients you have into the form below, and our database will generate a list of cocktails you can make without having to run out to the shop.</p>
+		<p>The recipes and a list of recipe sources can be found under the <a href="recipes.html">Recipes</a> and <a href="references.html">References</a> tabs above.
+</header>
+<h3>Ingredients:</h3>
+<p>
+<form class="infoForm">
+Ingredient 1: <br>
+	<select id="ingr1" name="ingredient">
+	<option value="" ></option>
+  </select><br><br>
+
+Ingredient 2: <br>
+	<select id="ingr2" name="ingredient">
+	<option value="" ></option>
+  </select><br><br>
+
+Ingredient 3: <br>
+	<select id="ingr3" name="ingredient">
+	<option value="" ></option>
+  </select><br><br>
+
+Ingredient 4: <br>
+	<select id="ingr4" name="ingredient">
+	<option value="" ></option>
+  </select><br><br>
+
+Ingredient 5: <br>
+	<select id="ingr5" name="ingredient">
+	<option value="" ></option>
+  </select><br><br>
+	<input type="button" value="Submit" onclick="setValues()">
+</form>
+</p>
+	<br>
+	<hr>
+	<br>
+		<p class="area" id="window"></p>
+	<br>
+	<hr>
+
+<br><br>
+<footer role="contentinfo">
+    <p>Website &copy; Riordan and Karyn Huenemann. Most recent update <time datetime="2022-05-10">10 May 2022</time>.</p>
+</footer>
+</body>
+</html>
